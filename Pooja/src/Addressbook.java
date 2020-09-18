@@ -4,11 +4,11 @@ public class Addressbook {
     static String FirstName;
     static String LastName;
     static Scanner sc = new Scanner(System.in);
-    static Personinformation person;
+    static Personalinformation person;
     static ArrayList <String> information;
     public static void AddData(){
         information = new ArrayList <>();
-        person = new Personinformation(FirstName,LastName);
+        person = new Personalinformation(FirstName,LastName);
         System.out.println("Enter First Name");
         person.setFirstName(sc.next());
         information.add(person.getFirstName());

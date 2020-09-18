@@ -1,7 +1,7 @@
 public class Personalinformation {
     String FirstName;
     String LastName;
-    public Personinformation(String FirstName,String LastName){
+    public Personalinformation(String FirstName,String LastName){
         super();
         this.FirstName = FirstName;
         this.LastName = LastName;
